@@ -35,8 +35,9 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/intro-bg.jpg) no-repeat top center;
     background-size: cover;
+    position: relative;
 }
 
 .intro-message {
@@ -167,4 +168,22 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.intro-header > .overlay {
+    content: '\A';
+    position: absolute;
+    width: 100%; 
+    height:100%;
+    top:0; 
+    left:0;
+    opacity: 1;
+}
+
+.intro-header .darken.overlay {
+   background:rgba(0,0,0,0.5);
+}
+
+.intro-header .lighten.overlay {
+   background:rgba(255,255,255,0.5);
 }
