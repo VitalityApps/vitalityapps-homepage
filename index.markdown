@@ -1,3 +1,8 @@
+---
+title: Home
+date: 2016-11-01 13:00:00 Z
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -97,11 +102,11 @@
     <!-- Page Content -->
 
 	<a  name="features"></a>
-    <div class="content-section-a">
+    <div class="content-section-b">
         <div class="container">
             <div class="row">
                 <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
-                    <h4>Early Access Announcement</h4>
+                    <h4>Hi Brett! Early Access Announcement</h4>
                     <br/>
                     <div>
                         Before we launch, we're inviting a small group of users to activate
@@ -119,9 +124,9 @@
             </div>
         </div>
     </div>
-    <!-- /.content-section-a -->
+    <!-- /.content-section-b -->
 
-    <div class="content-section-b" style="padding-bottom: 0">
+    <div class="content-section-a" style="padding-bottom: 0">
 
         <div class="container">
             <div class="row">
@@ -140,9 +145,9 @@
         <!-- /.container -->
 
     </div>
-    <!-- /.content-section-b -->
+    <!-- /.content-section-a -->
 
-    <div class="content-section-a">
+    <div class="content-section-b">
 
         <div class="container">
 
@@ -162,7 +167,7 @@
         <!-- /.container -->
 
     </div>
-    <!-- /.content-section-a -->
+    <!-- /.content-section-b -->
 
     <!--
     <div class="content-section-b">
