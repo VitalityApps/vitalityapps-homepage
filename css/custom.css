@@ -1,0 +1,47 @@
+body {
+   font-family: "Raleway", arial, sans-serif;
+}
+
+.profile .img-container {
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 75%;
+   padding-top: 75%;
+   background-size: contain;
+   border-radius: 1000px;
+   margin: 2em auto;
+}
+
+.profile h5 {
+   font-size: 1.25em;
+   margin: 0.25em 0 0 0;
+}
+
+.profile small {
+   color: #999;
+   font-weight: normal;
+}
+
+.profile p {
+   margin-top: 1em;
+}
+
+.skyline {
+   position: relative;
+   background: url('/img/skyline.png') center center no-repeat;
+   background-size: cover;
+   padding-top: 24%;
+   margin: 30px 0;
+}
+.skyline.sm {
+   padding-top: 50%;
+}
+
+.skyline .overlay {
+   background: linear-gradient(180deg, rgba(0,0,0,0), rgba(255,255,255,0) 95%, rgba(255,255,255,1.0) 100%);
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
