@@ -28,7 +28,7 @@ body {
 
 .skyline {
    position: relative;
-   background: url('/img/skyline.png') center center no-repeat;
+   background: url('../img/skyline.png') center center no-repeat;
    background-size: cover;
    padding-top: 24%;
    margin: 30px 0;
@@ -47,7 +47,7 @@ body {
 }
 
 .banner-sm {
-   background: url('/img/banner-sm.jpg') center center no-repeat;
+   background: url('../img/banner-sm.jpg') center center no-repeat;
    background-size: cover;
    padding-top: 31%;
 }
