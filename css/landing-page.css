@@ -55,13 +55,23 @@ h6 {
    border-color: #90c24a;
 }
 
-.content-section-a .para + .para, .content-section-b .para + .para {
-   margin-top: 1em;
-}
-
 .content-section-a, .content-section-b {
    line-height: 1.6em; 
    font-size: 18px;
+}
+
+.content-section-a .para, .content-section-b .para {
+   margin-bottom: 1em;
+}
+
+.content-section-a .row + .row, .content-section-b .row + .row {
+   margin-top: 30px;
+}
+
+@media(min-width: 768px) {
+   .content-section-a .para ul, .content-section-b .para ul {
+      margin-top: 40px;
+   }
 }
 
 .intro-header {
