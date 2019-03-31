@@ -75,16 +75,16 @@ h6 {
 }
 
 .intro-header {
-   max-height: 80%;
+   max-height: 30%;
    overflow: hidden;
 }
 .intro-header-inner {
    box-sizing: border-box;
    position: relative;
    width: 100%;
-   background: url(../img/intro-bg.jpg) no-repeat center center;
+   background: url(../img/banner-bg2.jpg) no-repeat center center;
    background-size: cover;
-   padding-top: 66%;
+   padding-top: 30%;
 }
 
 /*

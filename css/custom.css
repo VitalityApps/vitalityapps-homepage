@@ -3,11 +3,11 @@ body {
 }
 
 .profile .img-container {
-   background-position: center center;
+   background-position: top center;
    background-repeat: no-repeat;
    width: 75%;
    padding-top: 75%;
-   background-size: contain;
+   background-size: cover;
    border-radius: 1000px;
    margin: 2em auto;
 }
